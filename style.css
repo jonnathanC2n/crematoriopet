@@ -34,20 +34,15 @@ h1, h2, h3, h4, h5 {
 #navbar.scrolled {
   box-shadow: 0 2px 20px rgba(125, 161, 168, 0.15);
 }
-.navbar-brand .logo-placeholder {
-  width: 42px;
-  height: 42px;
+.navbar-logo {
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--white);
-  font-size: 1.1rem;
+  object-fit: cover;
 }
 .navbar-brand .brand-name {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.3rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.35rem;
   font-weight: 600;
   color: var(--text-dark);
   letter-spacing: 0.02em;
@@ -559,22 +554,17 @@ footer {
   background: var(--text-dark);
   color: rgba(245, 242, 237, 0.75);
 }
-footer .footer-brand {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.4rem;
-  color: var(--white);
-  font-weight: 600;
-}
-footer .footer-logo-placeholder {
+footer .footer-logo {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  object-fit: cover;
+}
+footer .footer-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
   color: var(--white);
-  font-size: 1.1rem;
+  font-weight: 600;
 }
 footer a {
   color: rgba(245,242,237,0.65);
